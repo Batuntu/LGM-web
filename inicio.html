@@ -5,6 +5,7 @@
         <title></title>
         <link rel="stylesheet"  href="css/reset.css" type="text/css"/>
         <link rel="stylesheet"  href="css/menu.css" type="text/css"/>
+        <link rel="stylesheet"  href="css/inicio.css" type="text/css"/>
     </head>
 
     <body>
@@ -15,10 +16,10 @@
                 <input type="search" id="query" name="q"
                  placeholder="Search..."
                  aria-label="Search through site content">
+
                 <button>
                     <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
                 </button>
-
                 <a href="iniciar-sesion.html">Iniciar sesion</a>
 
             </form>
@@ -29,13 +30,63 @@
             
             <ul class="nav">
                 <li class="visited"><a href="#">INICIO</a></li>
-                <li ><a href="/foro.html">FORO</a></li>
-                <li ><a href="/comunidad.html">COMUNIDAD</a></li>
-                <li ><a href="/soporte.html">SOPORTE</a></li>
-                <li ><a href="/index.html">INDEX</a></li>
+                <li ><a href="foro.html">FORO</a></li>
+                <li ><a href="comunidad.html">COMUNIDAD</a></li>
+                <li ><a href="soporte.html">SOPORTE</a></li>
+                <li ><a href="index.html">INDEX</a></li>
             </ul>
            
         </nav>
+
+        <section>
+
+            <div class="slide-container">
+
+                <span id="slider-image-1"></span>
+                <span id="slider-image-2"></span>
+                <span id="slider-image-3"></span>
+                <div class="image-container">
+                    <img src="imagenes/ad1.png" class="slider-image">
+                    <img src="imagenes/an2.png" class="slider-image">
+                    <img src="imagenes/an3.png" class="slider-image">
+                </div>
+
+                <div class="button-container">
+                    <a href="#slider-image-1" class="slider-button"></a>
+                    <a href="#slider-image-2" class="slider-button"></a>
+                    <a href="#slider-image-3" class="slider-button"></a>
+                </div>
+            </div>
+
+
+            <div id="forosV" >
+                <h1 align="center">Foros Mas Vistos</h1>
+                <ul>
+                    <li align="center"> <a href="#">Foro1</a> <p>Descripcion foro1</p></li>
+                    <li align="center"> <a href="#">Foro2</a> <p>Descripcion foro2</p></li>
+                    <li align="center"> <a href="#">Foro3</a><p>Descripcion foro3</p></li>
+                    <li align="center"> <a href="#">Foro4</a><p>Descripcion foro4</p></li>
+                    <li align="center"> <a href="#">Foro5</a><p>Descripcion foro5</p></li>
+                </ul>
+
+                <br>
+            </div>
+
+            <div id="forosR">
+                <h1>Foros Recientes</h1>
+
+                <ul>
+                    <li align="center"> <a href="#">Foro1</a> <p>Descripcion foro1</p></li>
+                    <li align="center"> <a href="#">Foro2</a> <p>Descripcion foro2</p></li>
+                    <li align="center"> <a href="#">Foro3</a><p>Descripcion foro3</p></li>
+                    <li align="center"> <a href="#">Foro4</a><p>Descripcion foro4</p></li>
+                    <li align="center"> <a href="#">Foro5</a><p>Descripcion foro5</p></li>
+                </ul>
+            </div>
+           
+        </section>
+
+        <footer align="center"><p>aaaaaaaa</p></footer>
 
     </body>
 </html>
