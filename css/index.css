@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet');
+
+header img{  
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    width: 30%;
+}
+
+#seccion1 {
+    color: white;
+    background-color: rgb(159, 103, 156);
+}
+
+#seccion1 #parrafo1{
+    font-size: 45px;
+    color: black;
+}
+
+.fondo{
+    background-image: url('/imagenes/fondo1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.blur{
+    backdrop-filter: blur(10px);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.texto{
+    text-align: left;
+    position: absolute;
+    left : 5%;
+    top: 30%;
+	/* top: 30%; */
+    /* width: 70%; */
+	font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 15px black;
+}
+
+.texto h2{
+    font-size: 26px;
+    padding-top: 5%;
+    color: rgb(255, 255, 255);
+}
+
+.fondo2 {
+    background-image: url('/imagenes/cage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blur2 {
+    backdrop-filter: blur(10px);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+#contacto h1{
+    font-size: 30px;
+}
