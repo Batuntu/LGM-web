@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap');
+
+#foroSection1 {
+    padding: 1%;
+    padding-left: 0px;
+    background-color: rgb(145, 211, 255);
+}
+
+ul.ulCategorias{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    background-color: #4276e7;
+    list-style-type: none;
+    text-align: center;
+    padding: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+ul.ulCategorias > li {
+    background-color: #213a96;
+    font-family: 'Merriweather Sans', sans-serif;
+    display: inline-block;
+    padding: 1.7% 1%;
+    margin-left: 0.1%;
+    margin-right: 0.1%;
+    border-radius: 15%;
+
+}
+
+ul.ulCategorias > li > a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+ul.ulCategorias > li:hover{
+    background-color: #5c25ff;
+}
+
+/* ----------------------------------------- */
+
+#foroSection2 {
+    background-color: aliceblue;
+}
+
+#foroSection2 h2 { /* encabezado preguntas*/
+    color: rgb(3, 60, 36);
+    font-size: 250%;
+    margin-left: 10%;
+    margin-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: 'Volkhov', serif;
+    background-color: #16569f;
+    margin-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 15%;
+    border-radius: 45%;
+}
+
+ul.ulCategorias2 { /* */
+    
+    padding-top: 1%;
+    background-color: #16569f;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    margin: 10px;
+    width: 40%;
+    margin-left: 7%;
+    margin-right: 7%;
+
+}
+
+ul.ulCategorias2 > li {
+    background-color: #213a96;
+    font-family: 'Merriweather Sans', sans-serif;
+    display: inline-block;
+    padding: 2% 7%;
+    font-size: 20px;
+}
+
+ul.ulCategorias2 > li > a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+ul.ulCategorias2 > li:hover{
+    background-color: #5c25ff;
+}
+
+
+/* ------------------------------------------------------------------------*/
+
+ul.ulPreguntas {
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    padding-left: 7%;
+
+}
+
+ul.ulPreguntas > li {
+    background-color: #16569f;
+    width: 50%;
+    opacity: 90%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+ul.ulPreguntas > li > a {
+    font-size: 150%;
+    background-color: darkslategray;
+    color: white;
+    padding-bottom: 0.4%;
+}
+
+ul.ulPreguntas > li > p{
+    font-size: 90%;
+    background-color: darkslategray;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    width: 95%;
+
+}
+
+ul.ulPreguntas > li > a:hover{
+    background-color: #5c25ff;
+}
