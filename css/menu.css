@@ -6,6 +6,10 @@ header{
     padding:5px 5px 10px 5px;
 }
 
+header h2{
+    float: right;
+}
+
 header h1{
     float: left;
 }
@@ -72,3 +76,22 @@ ul.nav > li > a {
     text-decoration: none;
 }
 
+footer{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    position: absolute;
+    width: 90%;
+    padding-bottom: 0.2%;
+}
+
+footer p{
+    position: absolute;
+}
+
+ul.pie li{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0.1%;
+}
