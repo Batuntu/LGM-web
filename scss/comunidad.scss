@@ -76,12 +76,16 @@
     .custom{
         background-color: white;
         padding: 5%;
-        height: 80%;
         box-shadow: 4px 4px 5px rgb(41, 39, 39);
         border-radius: 10px;
+
         @include media-up(md){
             height: 60%;
         }
+        @include media-up(lg){
+            height: 80%;
+        }
+        
     }
 
     p{
