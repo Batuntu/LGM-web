@@ -24,7 +24,6 @@
                     <svg viewBox="0 0 1024 1024"><path class="path1 iconoB" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
                 </button>
 
-                
             </form>
         </header>
 
@@ -55,8 +54,8 @@
           </nav>
 
         <!-- Categorias -->
-        <section id = foroSection1>
-            <nav>
+        <section id = "foroSection1">
+            <!-- <nav>
                 <ul class="ulCategorias">
                     <li><a href="foro.html">MATEMÁTICAS</a></li>
                     <li><a href="foro.html">LITERARUTA</a></li>
@@ -67,44 +66,93 @@
                     <li><a href="foro.html">ALGEBRA</a></li>
                     <li><a href="foro.html">OTROS</a></li>
                 </ul>
-            </nav>
+            </nav> -->
+
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4276e7">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navbar-custom mx-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">MATEMÁTICAS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">LITERATURA</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">QUÍMICA</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">HISTORIA</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">BIOLOGÍA</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">INGLES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">ALGEBRA</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">OTROS</a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
         </section>
 
-        <section id = foroSection2>
+        <section id = "foroSection2">
 
-            <h2>PREGUNTAS</h2>
+            <div class="container align-items-center  " >
 
-            <nav>
-                <ul class="ulCategorias2">
-                    <li><a href="foro.html">Mas Populares</a></li>
-                    <li><a href="foro.html">Mejor votadas</a></li>
-                    <li><a href="foro.html">Recientes</a></li>
-                </ul>
-            <nav>
-            
-            <nav>
-                <ul class="ulPreguntas">
-                    <li>
-                        <a href="foro.html">Pregunta 1</a>
-                        <p>
-                            EJEMPLO: DETALLES PREGUNTAS
-                        </p>
-                    
-                    </li>
-                    <li>
-                        <a href="foro.html">Pregunta 2</a>
-                        <p>
-                            EJEMPLO: DETALLES PREGUNTAS
-                        </p>
-                    </li>
-                    <li>
-                        <a href="foro.html">Pregunta 3</a>
-                        <p>
-                            EJEMPLO: DETALLES PREGUNTAS
-                        </p>
-                    </li>
-                </ul>
-            </nav>
+                <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4276e7">
+                    <div class="container-fluid">
+
+                        <div class="navbar-nav mx-auto">
+                            <a class="nav-link active" aria-current="page" href="#">Mas Populares</a>
+                            <a class="nav-link" href="#">Mejor Votados</a>
+                            <a class="nav-link" href="#">Recientes</a>
+                        </div>
+
+                    </div>
+                </nav>
+        
+
+                <div id="foros" class="container">
+                    <div class="row row-cols-1">
+                        <div class="col" >
+                            <h1> <a href="#">Pregunta </a></h1>
+                            <p>Descripcion de la Pregunta</p>
+                        </div>
+
+                        <div class="col" >
+                            <h1> <a href="#">Pregunta </a></h1>
+                            <p>Descripcion de la Pregunta</p>
+                        </div>
+                        <div class="col ">
+                            <h1> <a href="#" >Pregunta </a></h1>
+                            <p>Descripcion de la Pregunta</p>
+                        </div>
+                        <div class="col ">
+                            <h1> <a href="#">Pregunta </a></h1>
+                            <p>Descripcion de la Pregunta</p>
+                        </div>
+                        <div class="col ">
+                            <h1> <a href="#">Pregunta </a></h1>
+                            <p>Descripcion de la Pregunta</p>
+                        </div>
+                        
+                    </div>
+                  </div>
+
+            </div>
                 
 
         </section>
@@ -117,6 +165,9 @@
                 <li><a href="">Whatsapp</a></li>
             </ul>
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
         
     </body>
 </html>
