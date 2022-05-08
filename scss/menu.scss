@@ -1,5 +1,6 @@
 
 header{
+    
     font-size:22px;
     color:rgb(78, 61, 227);
     margin:5px;
@@ -51,7 +52,7 @@ button {
     height: 44px;
 }
   
-svg {
+.iconoB {
     color: #fff;
     fill: currentColor;
     width: 24px;
@@ -59,26 +60,25 @@ svg {
     padding: 10px;
 }
 
-.nav {
-    padding-left: 0px;
-    background-color: #3D99CE;
-    text-align: center;
+// .nav1 {
+//     padding-left: 0px;
+//     background-color: #3D99CE;
+//     text-align: center;
     
-    li {
-        display: inline-block;
-        padding: 10px 20px;
+//     li {
+//         display: inline-block;
+//         padding: 10px 20px;
 
-        &:hover , &.visited{
-            background-color: #2779BF;
-        }
+//         &:hover , &.visited{
+//             background-color: #2779BF;
+//         }
 
-        a {
-            color: white;
-            text-decoration: none;
-        }
-    }
-
-}
+//         a {
+//             color: white;
+//             text-decoration: none;
+//         }
+//     }
+// }
 
 footer{
     margin-left: 5%;

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,4FAAI;AAEZ,AAAA,MAAM,CAAA;EACF,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,OAAO;EAEhB,SAAS,EAAE,IAAI;EAEf,eAAe,EAAE,IAAI;CACxB;;AAED,AACI,SADK,CACL,EAAE,CAAA;EACE,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,EAAE;EACf,cAAc,EAAE,EAAE;CACrB",
+    "sources": [
+        "../scss/boton.scss"
+    ],
+    "names": [],
+    "file": "boton.css"
+}

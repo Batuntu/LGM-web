@@ -1,72 +1,77 @@
-#forma{
-    margin-top: 5%;
-    margin-left: 32%;
-    margin-right: 10%;
-    height: 100%;
-    width: 35%;
+#forma {
+  margin-top: 5%;
+  margin-left: 32%;
+  margin-right: 10%;
+  height: 100%;
+  width: 35%;
 }
 
-#usuario{
-    height: 100%;
-    width: 100%;
+#usuario {
+  height: 100%;
+  width: 100%;
 }
 
-ul.usuario li{
-    width:100%;
-    text-align:center;
-    margin:10px;
+.usuario li {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
 }
 
-ul.usuario li label{
-    width: 30%;
-    display: block;
-    float:left;
-    text-align:left;
-    margin-left: 2%;
-    background-color: rgba(0, 0, 0, 0.315);
-    padding: 3%;
-    border-radius: 5px;
-    color: white;
+.usuario li label {
+  width: 30%;
+  display: block;
+  float: left;
+  text-align: left;
+  margin-left: 2%;
+  background-color: rgba(0, 0, 0, 0.315);
+  padding: 3%;
+  border-radius: 5px;
+  color: white;
 }
 
-ul.usuario li input{
-   width: 50%;
-   height: 30px;
-   font-size: 22px;
-   display: block;
-   margin-top: 7%;
-   margin-left: 300px;
+.usuario li input {
+  width: 50%;
+  height: 30px;
+  font-size: 22px;
+  display: block;
+  margin-top: 7%;
+  margin-left: 300px;
 }
 
-ul.usuario li textarea{
-    width: 50%;
-    height: 50px;
+.usuario li textarea {
+  width: 50%;
+  height: 50px;
 }
 
-ul.usuario button{
-    width:120px;
-    height: 60px;
-    background-color: #008CBA;;
-    font-size: 14px;
-    color:aliceblue;
-    border-radius: 5px;
-    margin-left: -3%;
+.usuario button {
+  width: 120px;
+  height: 60px;
+  background-color: #008CBA;
+  font-size: 14px;
+  color: aliceblue;
+  border-radius: 5px;
+  margin-left: -3%;
 }
 
-ul.usuario ul.botones{
-    margin-left: 12%;
-    display: flex;
-    flex-direction: row;
+.usuario button:hover {
+  background-color: beige;
+  color: black;
 }
 
-
-ul.usuario button:hover{
-    background-color: beige;
-    color:black;
+.usuario .botones {
+  margin-left: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 input:focus, textarea:focus {
-    background   : rgba(0,0,0,.1);
-    border-radius: 5px;
-    outline      : none;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  outline: none;
 }
+/*# sourceMappingURL=iniciar-sesion.css.map */
