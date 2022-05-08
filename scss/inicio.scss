@@ -14,15 +14,16 @@
 }
 
 #forosV{
-    
     width: 1000px;
-    height: 10px;
+    //height: 10px;
     padding-bottom: 5%;
-    margin: auto;
-    margin-bottom: 23%;
+    margin: 0 auto;
+    margin-bottom: 20%;
     display: block;
     margin-top: 1%;
     float: none;
+    text-align: center;
+    border: 1px solid red;
 
     h1{
         font-size: 30px;
@@ -65,7 +66,7 @@
 #forosR{
 
     width: 1000px;
-    height: 10px;
+    // height: 10px;
     padding-bottom: 5%;
     margin: auto;
     margin-bottom: 20%;
@@ -85,10 +86,11 @@
 
         li{
             margin-top: 1%;
+            margin: 0px auto;
             height: 70px;
             background-color: rgb(36, 218, 203);
             border: solid;
-            display: block;
+            //display: block;
             float: none;
         }
     }
