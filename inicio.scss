@@ -1,0 +1,116 @@
+
+.carousel-item{
+    min-height: 380px;
+}
+.carousel-inner img {
+  margin: auto;
+}
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#forosV{
+    width: 1000px;
+    //height: 10px;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    margin-bottom: 20%;
+    display: block;
+    margin-top: 1%;
+    float: none;
+    text-align: center;
+    border: 1px solid red;
+
+    h1{
+        font-size: 30px;
+    }
+
+    ul{
+        display: block;
+        padding-bottom: 10%;
+        white-space: nowrap;
+
+        li{
+            margin-top: 1%;
+            height: 70px;
+            background-color: rgb(36, 218, 203);
+            border: solid;
+            display: block;
+            float: none;
+        }
+    }
+
+    p{
+        margin-top: 2%;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+    }
+
+    a{
+        font-size: 23px;
+        float: left;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding-left: 5px;
+
+        &:hover{
+            color: red;
+        }
+    }
+}
+
+#forosR{
+
+    width: 1000px;
+    // height: 10px;
+    padding-bottom: 5%;
+    margin: auto;
+    margin-bottom: 20%;
+    display: block;
+    margin-top: 1%;
+    float: none;
+    text-align: center;
+
+    h1{
+        font-size: 30px;
+    }
+
+    ul{
+        display: block;
+        padding-bottom: 10%;
+        white-space: nowrap;
+
+        li{
+            margin-top: 1%;
+            margin: 0px auto;
+            height: 70px;
+            background-color: rgb(36, 218, 203);
+            border: solid;
+            //display: block;
+            float: none;
+        }
+    }
+
+    a{
+        float: left;
+        padding-left: 5px;
+        font-size: 23px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+
+        &:hover{
+            color: red;
+        }
+    }
+
+    p{
+        margin-top: 2%;
+        font-size: 30px;
+    }
+}
+
+
