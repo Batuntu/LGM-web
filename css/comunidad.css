@@ -64,7 +64,6 @@
 .borde .custom {
   background-color: white;
   padding: 5%;
-  height: 80%;
   -webkit-box-shadow: 4px 4px 5px #292727;
           box-shadow: 4px 4px 5px #292727;
   border-radius: 10px;
@@ -73,6 +72,12 @@
 @media screen and (min-width: 768px) {
   .borde .custom {
     height: 60%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .borde .custom {
+    height: 80%;
   }
 }
 
