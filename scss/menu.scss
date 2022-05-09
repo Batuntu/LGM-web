@@ -1,10 +1,24 @@
+@import "variables";
+html{
+    font-family: 'Inter', sans-serif;
+}
 
 header{
-    
     font-size:22px;
-    color:rgb(78, 61, 227);
-    margin:5px;
-    padding:5px 5px 10px 5px;
+    // color:rgb(78, 61, 227);
+    // margin:5px;
+    // padding:5px 5px 10px 5px;
+
+    .contenedorLogo{
+        height: 60px;
+        width: 100px;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .contenedorLogo img{
+        width: 110%;
+    }
 
     h2{
         float: right;
@@ -13,43 +27,40 @@ header{
     h1{
         float: left;
     }
+
+    .iniciarSesion{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height: 70px;
+        width: 70px;
+    }
+    
+    .iniciarSesion img{
+        width: 120%;
+    }
 }
 
 form{
-    margin-left: 45%;
-    margin-right: 45%;
-    margin-bottom: 10px;
-    padding-left: 1px;
-    padding-right: 1px;
-
-    background-color: #4654e1;
-    width: 235px;
-    height: 44px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    margin: auto;
+    color: white;
+    background-color: #3D99CE;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
 }
 
 input {
     all: unset;
     font: 16px system-ui;
     color: rgb(255, 255, 255);
-    height: 100%;
-    width: 100%;
-    padding: 6px 10px;
+    padding-left: 20px;
+    padding-top: 13px;
 }
 
 ::placeholder {
     color: #fff;
     opacity: 0.7; 
-}
-
-button {
-    all: unset;
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
+    margin-top: 1%;
 }
   
 .iconoB {
