@@ -1,4 +1,14 @@
-$color1:#ffffff;
+//Fuentes y letras
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+// Colores letras
+
+$vColorBackground: #f5f5f5;
+$vColorMain1: #3D99CE;
+$vColorMain2: #3d5fce;
+$vColorMain3: #5a6c76;
+
+//Breakpoints
 
 $breakpoints: (
   xs: 0,
